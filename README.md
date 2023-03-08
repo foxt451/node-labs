@@ -27,6 +27,16 @@ Task:
 > Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). The next words should be always capitalized.</br>
 > For example ("the-stealth-warrior" gets converted to "theStealthWarrior").
 
+4. Playing with digits
+
+Link to solution: https://www.codewars.com/kata/reviews/5552cffe7abf6e77eb000041/groups/64087050ecb6740001fee124
+
+Link to kata: https://www.codewars.com/kata/5552101f47fc5178b1000050
+
+Task:
+> Given a positive integer n written as abcd... (a, b, c, d... being digits) and a positive integer p, we want to find a positive integer k, if it exists, such that the sum of the digits of n taken to the successive powers of p is equal to k * n. If it is the case we will return k, if not return -1
+> For example (digPow(695, 2) should return 2 since 6² + 9³ + 5⁴= 1390 = 695 * 2)
+
 ## Відповіді на запитання
 1. Так, є. В браузері доступні функції і обʼєкти, які недоступні в Node.js і навпаки.
 2. undefined, null, boolean, number, bigint, string, symbol, object.
@@ -39,3 +49,6 @@ Task:
     * readline (для читання даних);
     * stream (для роботи з потоковими даними);
     * errors (для роботи з помилками);
+5. Синтаксис: var *variable name* = require(*module name*);
+6. Chrome використовує двигуни JavaScript, які початково були розроблені для Node. "Node is a runtime built on Chrome’s V8 JavaScript engine. It is basically writing JavaScript for the server side"
+7. Синтаксис: exports.*variable name* = *variable name*
