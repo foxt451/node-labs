@@ -58,6 +58,6 @@ Task:
     * readline (для читання даних);
     * stream (для роботи з потоковими даними);
     * errors (для роботи з помилками);
-5. Синтаксис: var *variable name* = require(*module name*);
+5. Приклад: import fs from 'node:fs/promises';
 6. Chrome використовує двигуни JavaScript, які початково були розроблені для Node. "Node is a runtime built on Chrome’s V8 JavaScript engine. It is basically writing JavaScript for the server side"
 7. Синтаксис: exports.*variable name* = *variable name*
